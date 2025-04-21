@@ -1,0 +1,61 @@
+{
+  "gantt": [
+    {
+      "name": "P1",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "name": "P2",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "name": "P1",
+      "start": 6,
+      "end": 7
+    },
+    {
+      "name": "P3",
+      "start": 7,
+      "end": 11
+    }
+  ],
+  "process_table": [
+    {
+      "name": "P1",
+      "arrival_time": 0,
+      "burst_time": 5,
+      "start_time": 0,
+      "completion_time": 7,
+      "tat": 7,
+      "wt": 2,
+      "rt": 0
+    },
+    {
+      "name": "P2",
+      "arrival_time": 4,
+      "burst_time": 2,
+      "start_time": 4,
+      "completion_time": 6,
+      "tat": 2,
+      "wt": 0,
+      "rt": 0
+    },
+    {
+      "name": "P3",
+      "arrival_time": 5,
+      "burst_time": 4,
+      "start_time": 7,
+      "completion_time": 11,
+      "tat": 6,
+      "wt": 2,
+      "rt": 2
+    }
+  ],
+  "avg_tat": 5.0,
+  "avg_wt": 1.33,
+  "avg_rt": 0.67,
+  "cpu_utilization": 100.0,
+  "throughput": 0.27
+}
